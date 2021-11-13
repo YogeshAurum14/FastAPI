@@ -16,7 +16,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return{"message": "Hello Bitches and mofos"}
+    return{"message": "Hello GCP WORLD"}
 
 figu={}
 @app.get("/search/{location} {reraid}")
